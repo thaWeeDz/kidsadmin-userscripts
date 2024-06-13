@@ -11,7 +11,7 @@
 
 (function() {
     'use strict';
-    console.log("Hello ME!");
+    console.log("Hello ME and You!");
 
     // Zoek de button met de class 'schema-button'
     const checkBtnLoaded = () => {
