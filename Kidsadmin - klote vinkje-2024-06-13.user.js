@@ -29,6 +29,7 @@
 
                         // Voorbeeldbewerking: verander de achtergrondkleur
                         roosterElement.querySelector(".check-box").checked = false;
+                        checkBtnLoaded();
                     } else {
                         // Probeer het opnieuw na een korte tijd
                         setTimeout(checkRoosterLoaded, 100);
