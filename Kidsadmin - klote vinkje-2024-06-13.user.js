@@ -7,6 +7,7 @@
 // @match        https://www.kidsadminlogin.nl/invoer/childfamily/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=kidsadminlogin.nl
 // @grant        none
+// @updateURL    https://github.com/thaWeeDz/kidsadmin-userscripts/raw/main/Kidsadmin%20-%20klote%20vinkje-2024-06-13.user.js
 // ==/UserScript==
 
 (function() {
