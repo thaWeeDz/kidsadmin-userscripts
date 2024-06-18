@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kidsadmin - klote vinkje
 // @namespace    http://tampermonkey.net/
-// @version      2024-06-20
+// @version      2024-06-21
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.kidsadminlogin.nl/invoer/childfamily/*
@@ -11,7 +11,7 @@
 
 (function() {
     'use strict';
-    console.log("Hello");
+    console.log("Hello - update");
 
     // Zoek de button met de class 'schema-button'
     const checkBtnLoaded = () => {
