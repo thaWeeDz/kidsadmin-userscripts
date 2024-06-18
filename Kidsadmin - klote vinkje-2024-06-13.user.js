@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kidsadmin - klote vinkje
 // @namespace    http://tampermonkey.net/
-// @version      2024-06-1-2
+// @version      2024-06-20
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.kidsadminlogin.nl/invoer/childfamily/*
