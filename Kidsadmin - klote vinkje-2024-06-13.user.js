@@ -12,7 +12,7 @@
 
 (function() {
     'use strict';
-    console.log("Hello ME and You gimme shit bitch! Is this the sollution?");
+    console.log("Hello ME and You gimme shit bitch! Is this the sollution?-----");
 
     // Zoek de button met de class 'schema-button'
     const checkBtnLoaded = () => {
