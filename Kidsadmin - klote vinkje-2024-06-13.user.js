@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Kidsadmin - klote vinkje
 // @namespace    http://tampermonkey.net/
-// @version      2024.0001
-// @description  try to take over the world!
-// @author       You
+// @version      2024.0002
+// @description  Verwijdert vinkje bij het editen van het rooster van een kind waardoor de het rooster niet meer in tweeen wordt geknipt
+// @author       Wytze Voerman
 // @match        https://www.kidsadminlogin.nl/invoer/childfamily/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=kidsadminlogin.nl
 // @grant        none
