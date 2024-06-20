@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Remove trashcan btn
 // @namespace    http://tampermonkey.net/
-// @version      v0001
+// @version      v0002
 // @description  Verwijdert de optie binnen de groepsapp om een kind uit de planning te verwijderen en deze dag te crediteren. Ook ver wijdert het de mogelijkheid een ruitldag in te stellen
 // @author       Wytze Voerman
 // @match        https://www.kidsadminlogin.nl/ipad3/planning
