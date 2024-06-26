@@ -20,6 +20,22 @@
             deleteBtn.remove();
             const ruilBtn = document.querySelector('.dialog-child-planning .planning-item-controls svg.fa-shuffle');
             ruilBtn.remove();
+
+            //replace planning-remove button
+            const buttonContainer = document.querySelector('.btn-danger');
+            var div = document.createElement('div');
+            var newBtn = '<button type="button" style="margin-top:10px;" class="btn btn-primary ka-hack">Afwezig melden</button>';
+            div.innerHTML = newBtn.trim();
+            buttonContainer.parentNode.appendChild(div);
+
+            newBtn = document.querySelector('.btn-primary.ka-hack');
+            newBtn.addEventListener('click', () => {
+                const callBtns = document.querySelectorAll('.dialog-child-planning .planning-item-controls span');
+                for (const icon of callBtns) {
+                    icon.click();
+                }
+            });
+
             setTimeout(checkDialogLoaded, 100);
         }else{
             // Probeer het opnieuw na een korte tijd
